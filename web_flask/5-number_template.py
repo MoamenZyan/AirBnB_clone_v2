@@ -42,6 +42,7 @@ def imanumber(n):
     """display some custom text"""
     return "{:d} is a number".format(n)
 
+
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def numbersandtemplates(n):
 
